@@ -1,0 +1,23 @@
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+img {
+    animation: spin 5s linear 0s infinite;
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    background-color: gray;
+}
+
+
+ 
